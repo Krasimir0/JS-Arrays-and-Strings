@@ -1,5 +1,9 @@
 function arrRotation(arr, numOfRotation) {
-    
+    for (let i = 0; i < numOfRotation; i++) {
+        let firstEl = arr.shift();
+        arr.push(firstEl);
+    }
+    console.log(arr.join(' '));
 }
 
 
