@@ -3,7 +3,7 @@ function arrRotation(arr, numOfRotation) {
         let firstEl = arr.shift();
         arr.push(firstEl);
     }
-    console.log(arr.join(' '));
+   return arr.join(' ')
 }
 
 
