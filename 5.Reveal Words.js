@@ -10,7 +10,7 @@ function revealWords(keyWords, sentence) {
                break;
             }    
         }   
-    }
+    }   
    return sentence
    
 }
